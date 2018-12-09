@@ -7,9 +7,16 @@
   *******/
  // Todays Topic
     function sayName(name){
-        return "Hello" + name;
+        return "Hello, " + name;
     }
-    sayName("Masud")
+    var hello = sayName;
+    // var fun = sayName("Masud");
+    // console.log(hello);
+    // console.log(fun);
+    var result = hello("masud");
+    result;
+    
+
 
 
  //1. A function can store in a variable 
