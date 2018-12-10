@@ -6,6 +6,7 @@
  *  
   *******/
  // Todays Topic
+    //regular function 
     function sayName(name){
         return "Hello, " + name;
     }
