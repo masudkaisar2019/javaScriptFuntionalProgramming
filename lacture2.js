@@ -27,6 +27,8 @@
  // 2. A Function can be stored in an Array
 
  var arr = [1,2,3,anotherHello("masud")];
+ console.log(arr);
+ 
  arr.push(sayName("khan"));
  console.log(arr);
 
