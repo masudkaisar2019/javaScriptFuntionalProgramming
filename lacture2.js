@@ -10,6 +10,7 @@
     function sayName(name){
         return "Hello, " + name;
     }
+ 
 
  //1. A function can store in a variable 
 
@@ -21,7 +22,7 @@
 // result;
     console.log(hello("masud"));
     var anotherHello = hello;
-    console.log(anotherHello("masud"));
+    console.log(anotherHello("Masud Khan"));
  
  // 2. A Function can be stored in an Array
 
@@ -42,9 +43,10 @@
      }
  }
  console.log(person.funcName("masud"))
+
  // 4. We can create function as needed 
 
- var sum = 10 + (function(){return 20})();
+ var sum = 10 + (function(){return 30})();
  sum;
 
  // 5. we can pass function as an arguments
