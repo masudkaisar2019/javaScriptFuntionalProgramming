@@ -21,15 +21,16 @@ function example(){
 var total = example();
 console.log(total);
 
-//-------------------------------------------
+//---------return an object in a function ----------------------------------
 
 function example2(){
     return{
         name: "Md Masud Khan",
         skill : ["Java", "JavaScript"],
         print: function(){
-          var myOutput =  this.name,
-        }
+          var myOutput =  this.skill;
+          return myOutput;
+        }    
     }
 }
 var obj = example2();
