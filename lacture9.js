@@ -26,7 +26,7 @@ var obj = [
 //     return a.age- b.age;
 // })
 
-// -----sort by name -------
+// -----sort by name from a array obj ------
 
 obj.sort(function(a,b){
     // return a.name- b.name;
